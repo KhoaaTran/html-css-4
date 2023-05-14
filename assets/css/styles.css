@@ -1148,11 +1148,11 @@ button {
 }
 
 .blog-item:nth-child(2) .blog-item__img-wrap {
-    background: #FF997E;
+    background: #ff997e;
 }
 
 .blog-item:nth-child(3) .blog-item__img-wrapgir {
-    background: #5BD6E2;
+    background: #5bd6e2;
 }
 
 .blog-item__time {
@@ -1187,4 +1187,130 @@ button {
     font-size: 1.4rem;
     line-height: 1.71;
     color: #656689;
+}
+
+/* Footer */
+.footer {
+    margin-top: 52px;
+    background: #fff6ed;
+    background: linear-gradient(to right, #fff6ed 42%, transparent 42%);
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__left {
+    padding: 114px 0 148px;
+    width: 42%;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+    margin-bottom: 68px;
+    width: 268px;
+    height: 46px;
+    border: 1px solid rgba(255, 91, 46, 0.25);
+    border-radius: 99px;
+    background: #ffffff;
+}
+
+.search-form__input {
+    width: 100%;
+    padding: 0 22px;
+    border-radius: inherit;
+    height: 100%;
+    border: none;
+    outline: none;
+}
+
+.search-form__input::placeholder {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.17;
+    color: #656689;
+}
+
+.search-form__submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    flex-shrink: 0;
+    margin-left: -1px;
+    width: 46px;
+    height: 46px;
+    color: #fff;
+    border-radius: 50%;
+    background: #ff5b2e;
+    box-shadow: 0px 15px 28px -7px rgba(255, 91, 46, 0.3);
+    cursor: pointer;
+}
+
+.footer__heading {
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.11;
+    color: #000958;
+}
+
+.social-list {
+    display: flex;
+    margin-top: 16px;
+    column-gap: 16px;
+}
+
+.social-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 16px 28px -10px rgba(211, 132, 53, 0.33);
+}
+
+.social-item:hover {
+    opacity: 0.8;
+}
+
+.footer__right {
+    flex: 1;
+    padding: 52px 0 48px 0;
+}
+
+.footer__row {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 58px 137px;
+    margin-left: 129px;
+}
+
+.footer__list {
+    margin-top: 14px;
+}
+
+.footer__link {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2;
+    color: #656689;
+}
+
+.footer__link:hover {
+    text-decoration: underline;
+}
+
+.footer__copyright {
+    margin: 52px 0 0 22px;
+    font-size: 1.2rem;
+    line-height: 1.17;
+    color: #656689;
+    opacity: 0.5;
 }
